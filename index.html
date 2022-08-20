@@ -8,18 +8,43 @@
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="./assets/css/styles.css" />
-        <title>Git it Done</title>
+        <title>Your Weather App</title>
     </head>
 
-<body>
-    <header>
-
-    </header>
-
-    <main>
-
-
-    </main>
+    <body class="flex-column min-100-vh">
+        <header class="hero">
+          <h1 class="app-title"><i class="fa fa-cloud" aria-hidden="true"></i> Weather Everywhere!</h1>
+          <p>Click on the button to see the weather in your city (or anywhere else)!
+          </p>
+        </header>
+      
+      
+        <main class="flex-row justify-space-between">
+          <div class="col-12 col-md-4"></div>
+            <div class="card">
+              <h3 class="card-header text-uppercase">Search By City</h3>
+              <form id="user-form" class="card-body">
+                <label class="form-label" for="username">City Name</label>
+                <input name="username" id="username" type="text" autofocus="true" class="form-input" />
+                <button type="submit" class="btn">Get City</button>
+              </form>
+            </div>
+          <div class="card">
+            <h3 class="card-header text-uppercase">Current Weather</h3>
+          </div>
+      
+          <div class="col-12 col-md-8">
+            <h2 class="subtitle">Showing weather for: <span id="repo-search-term"></span></h2>
+            <div id="repos-container" class="list-group"></div>
+            <div class="card-body" id="language-buttons">
+              <btn>Javascript</btn>
+              <btn>HTML</btn>
+              <btn>CSS</btn>
+            </div>
+          </div>
+            
+      
+        </main>
 
     <script src="./assets/js/script.js"></script>
 </body>      
