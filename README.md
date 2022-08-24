@@ -17,6 +17,8 @@ THEN I am again presented with current and future conditions for that city
 
 *CSS
 
+*JS
+
 ## Website
 https://leslie1590.github.io/Challenge-5/
 
