@@ -20,7 +20,7 @@ THEN I am again presented with current and future conditions for that city
 ## Website
 https://leslie1590.github.io/Challenge-5/
 
- ![ ALT]()
+ ![ ALT](./assets/images/screenshot.png)
 
 ## Contribution
 Made by Leslie1590
